@@ -1,0 +1,21 @@
+---
+title: "group_22_ca_ej"
+author: "Leonardo Feitosa"
+date: "27/11/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(here)
+library(janitor)
+```
+
+## Read in the data
+
+```{r}
+ces <- read_csv(here("data","ces3demographics.csv")) %>% 
+  clean_names()
+```
+
