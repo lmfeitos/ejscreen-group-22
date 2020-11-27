@@ -30,3 +30,4 @@ ggplot(data = ces, aes(x = white_percent, y = ces_3_0_score)) +
   theme_minimal()
 ```
 
+The California pollution burden score and the percentage of the population that is white have a negative relationship. The burden score gets lower as the white population increases. 
